@@ -1,0 +1,32 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        body {
+            margin: 70px;
+            padding-left: 20%;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Formulario en html</h2><br>
+    <form action="/action_page.php"><label>Nombre: &nbsp;&nbsp;<input type="text" placeholder="Introduzca su nombre" id="frame" name="frame"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="lname">Apellidos: &nbsp;</label><input type="text" placeholder="Introduzca primer apellido"
+            name="lname" id="lname"><br><br><label>Email: &nbsp;&nbsp;<input type="email" name="correo" id="email1" placeholder="Introduzca email" value="example@gmail.com"></label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="titulacion">Titulacion:  &nbsp; &nbsp;&nbsp;<select id="titulacion" name="titulacion"><option value="ESO">ESO</option><option value="Bachillerato" selected>Bachillerato</option><option value="FP Medio">Grado Medio</option><option value="Carrera universitaria">Carrera universitaria</option></select></label><br><br><label>Modulos preferidos: <br><input type="radio" name="modulos" id="Lenguaje de marca">LDM &nbsp;&nbsp; <input type="radio" name="modulos" id="Programacion">Programacion &nbsp;&nbsp; <input type="radio" name="modulos" id="Bases de datos">BD</label><br><br>
+        <label>Checkbox <br><input type="checkbox" id="valorPrimero" name="gustos"><label for="gustos"> Me gusta programacion <br><input type="checkbox" id="valorPrimero" name="gustos"><label for="gustos"> Me gusta LDM<br><input type="checkbox" id="valorPrimero" name="gustos"><label for="gustos"> Me gusta Bases de datos<br><br><label>Descripcion del problema <br><input type="text" placeholder="Descripción" name="problemaDescripcion" id="numeros"></label>
+        <br><br><label>Elija curso: &nbsp;&nbsp;&nbsp;<select name="opciones" id="Curso"><optgroup>º</optgroup></select></label><input type="submit" value="Hecho">
+    </form>
+</body>
+
+</html>
